@@ -4,6 +4,7 @@ DynamicLibrary {
     name: "SortFilterProxyModel"
     cpp.includePaths: sourceDirectory
     cpp.cxxLanguageVersion:"c++14"
+    cpp.rpaths: cpp.rpathOrigin
     files: [
         "qqmlsortfilterproxymodel.h",
         "qqmlsortfilterproxymodel.cpp",
